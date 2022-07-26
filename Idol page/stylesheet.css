@@ -1,0 +1,60 @@
+body{
+    background-color: #252525;
+    color: rgb(255, 254, 254);
+}
+.flex-container {
+    display: flex;
+    background-color: #3F3351;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  
+  .flex-container > div {
+    background-color: #3F3351;
+    margin: 10px;
+    padding: 30px;
+    font-size: 20px;
+    border-color: dimgray;
+  }
+hr{
+    border-style: dotted none none;
+    width :20%;
+    border-width: 0.5em;
+    border-color: gray ;
+}
+img{
+    float: inline-end;
+    width: 300px;
+    height: 300px;
+    margin-left: 20%;
+    padding: 20px;
+}
+.para1{
+    float:clear;
+    float :right;
+    width :80%;
+    margin-right: 10%;
+    letter-spacing: 2px;
+    line-height: 1.6;
+}
+.para2{
+    float:clear;
+    float :center;
+    width :80%;
+    margin-left: 8%;
+    letter-spacing: 2px;
+    line-height: 1.6;
+    background-color:#303960;
+    padding: 20px;
+    padding-left: 30px;
+}
+.image{
+    width: 500px;
+    height: 350px;
+    float: none;
+    margin-left: 23%;
+}
+.foot{
+    padding:25px;
+    font-size: large;
+}
